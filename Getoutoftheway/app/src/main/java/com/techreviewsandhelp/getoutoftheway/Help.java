@@ -29,8 +29,8 @@ public class Help extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 startActivity(new Intent(c, MainActivity.class));
-            }
-        });
+                finish();
+            }});
 
 
     }
